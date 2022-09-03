@@ -118,6 +118,7 @@ img {
   display: flex;
   align-items: center;
   list-style-type: none;
+  border: none;
 }
 .header-nav li:not(:last-child) {
   margin-right: 50px;
@@ -129,6 +130,7 @@ img {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  border: none;
 }
 .nav-link {
   color: var(--main-txt-cl);
@@ -139,7 +141,9 @@ img {
 .nav-link:hover,
 :focus {
   color: #2196f3;
+  border: none;
 }
+
 .header-contacts {
   display: flex;
   margin-left: auto;
@@ -349,12 +353,17 @@ img {
   border-radius: 50%;
   background-color: var(--background-txt-xl);
 }
-.social-icon {
-  fill: var(--icon-team-cl);
+
+.socials-link:hover,
+.socials-link:focus {
+  background-color: var(--main-btn-cl);
 }
 .socials-link:hover .social-icon,
 .socials-link:focus .social-icon {
-  fill: var(--main-btn-cl);
+  fill: var(--background-txt-xl);
+}
+.social-icon {
+  fill: var(--icon-team-cl);
 }
 .customers-link {
   display: flex;

@@ -20,6 +20,8 @@
   --background-btn-cl: #f5f4fa;
   --icon-team-cl: #afb1b8;
   --icon-customer-cl: #afb1b8;
+  --border-color: #ececec;
+  --border-card: #eeeeee;
 }
 body {
   background-color: var(--background-txt-xl);
@@ -389,7 +391,7 @@ img {
   fill: var(--button-hover);
 }
 .customers-link:hover,
-:focus {
+.customers-link:focus {
   border: 1px solid var(--button-hover);
 }
 .footer {

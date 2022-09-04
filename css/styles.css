@@ -565,6 +565,9 @@ img {
 .list-parfolio-item:nth-child(n + 7) {
   margin-bottom: 0;
 }
+.link-card {
+  display: block;
+}
 .subtitle-card {
   padding: 20px 24px;
   border-bottom: 1px solid var(--background-portfolio-cl);

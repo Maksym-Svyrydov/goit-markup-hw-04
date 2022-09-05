@@ -140,8 +140,12 @@ img {
   font-weight: 500;
   letter-spacing: 0.02em;
 }
-.nav-link:hover,
-:focus {
+.nav-link:hover {
+  color: #2196f3;
+  border: none;
+}
+
+.nav-link:focus {
   color: #2196f3;
   border: none;
 }
@@ -158,8 +162,10 @@ img {
   font-weight: 500;
   letter-spacing: 0.02em;
 }
-.contacts-link:hover,
-:focus {
+.contacts-link:hover {
+  color: var(--main-btn-cl);
+}
+.contacts-link:focus {
   color: var(--main-btn-cl);
 }
 
@@ -169,8 +175,10 @@ img {
   font-weight: 500;
   letter-spacing: 0.02em;
 }
-.contacts-link:hover,
-:focus {
+.contacts-link:hover {
+  color: var(--main-btn-cl);
+}
+.contacts-link:focus {
   color: var(--main-btn-cl);
 }
 .icon-contacts {
@@ -567,6 +575,14 @@ img {
 }
 .link-card {
   display: block;
+}
+.link-card:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.link-card:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .subtitle-card {
   padding: 20px 24px;
